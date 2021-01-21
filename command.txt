@@ -1,10 +1,28 @@
-1. $ git config --global user.name "<username>"   -> untuk menambahkan username pada git, sebaiknya disesuaikan dengan username akun github.
-2. $ git config --global user.email "<email>"     -> untuk menambahkan email pada git, sebaiknya disesuaikan dengan email akun github.
+> $ git config --global user.name "<username>"   -> untuk menambahkan username pada git, sebaiknya disesuaikan dengan username akun github.
+> $ git config --global user.email "<email>"     -> untuk menambahkan email pada git, sebaiknya disesuaikan dengan email akun github.
 
-3. $ git config --list                            -> untuk mengecek apakah git sudah mencatat username dan email yg tadi dimasukkan
-4. $ git init                                     -> untuk menjadikan folder sebagai repository, biasanya akan menjadi master(main) branch
-5. $ git add "<nama file>"                        -> untuk menambahkan file kedalam staging area, area dimana file di validasi ke repo sebelum dicommit
-6. $ git add .                                    -> untuk menambahkan seluruh file yang ada didalam repo kedalam staging area
+> $ git config --list                            -> untuk mengecek apakah git sudah mencatat username dan email yg tadi dimasukkan
+> $ git init                                     -> untuk menjadikan folder sebagai repository, biasanya akan menjadi master(main) branch
+> $ git add "<nama file>"                        -> untuk menambahkan file kedalam staging area, area dimana file di validasi ke repo sebelum dicommit
+> $ git add .                                    -> untuk menambahkan seluruh file yang ada didalam repo kedalam staging area
 
-7. $ git commit -am "<message>"                   -> untuk melakukan add dan commit sekaligus, pada hal ini juga ditambahkan message/pesan nya
-8. $ git commit -m "<message>"                    -> untuk melakukan commit ke branch, "-m" untuk memberikan pesan/message pada commit
+> $ git commit -am "<message>"                   -> untuk melakukan add dan commit sekaligus, pada hal ini juga ditambahkan message/pesan nya
+> $ git commit -m "<message>"                    -> untuk melakukan commit ke branch, "-m" untuk memberikan pesan/message pada commit
+
+> $ git status                                   -> untuk mengetahui status repository
+> $ git branch                                   -> untuk membuat branch
+> $ git help                                     -> untuk melihat bantuan
+
+> $ git log                                      -> untuk melihat semua commit yang telah dilakukan
+> $ git log -<number>                            -> untuk melihat jumlah sesuai nomor urutan log terakhir
+> $ git log -- <filename>                        -> untuk melihat spesifik log dari nama file
+> $ git checkout <5 digit hash>                  -> untuk mengembalikan commit dan segala perubahannya
+> $ git checkout <5 digit hash> -- <filename>    -> untuk mengembalikan commit tetapi ingin spesifik hanya mengembalikan sesuatu yang sesuai nama file nya
+
+> $ git log --all --decorate --oneline --graph   -> untuk menampilkan alur commit dalam bentuk graph seperti di network github
+> $ alias graph="git log --all --decorate --oneline --graph"  -> untuk menampilkan alur commit dalam bentuk graph seperti di network github, tetapi nantinya tinggal memanggil 'graph'
+
+> $ git checkout <branch_name>                   -> untuk mengembalikan/berpindah branch
+> $ git merge <branch_name>                      -> untuk merging/menggabungkan branch <branch_name> ke branch session saat ini
+> $ git branch --merged                          -> untuk melihat branch mana yang sudah melakukan merger
+> $ git branch -d <branch_name>                  -> untuk menghapus branch mana yang sudah melakukan merger
