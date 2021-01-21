@@ -1,2 +1,2 @@
-1. $ git config --global user.name "<username>"   -> untuk menambahkan username pada git, baiknya disesuaikan dengan username akun github.
-2. $ git config --global user.email "<email>"     -> untuk menambahkan email pada git, baiknya disesuaikan dengan email akun github.
+1. $ git config --global user.name "<username>"   -> untuk menambahkan username pada git, sebaiknya disesuaikan dengan username akun github.
+2. $ git config --global user.email "<email>"     -> untuk menambahkan email pada git, sebaiknya disesuaikan dengan email akun github. 
