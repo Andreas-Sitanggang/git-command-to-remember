@@ -1,3 +1,6 @@
+Credits   : Andreas Sitanggang
+Twitter   : @andreassstg
+
 > $ git config --global user.name "<username>"   -> untuk menambahkan username pada git, sebaiknya disesuaikan dengan username akun github.
 > $ git config --global user.email "<email>"     -> untuk menambahkan email pada git, sebaiknya disesuaikan dengan email akun github.
 
