@@ -1,2 +1,10 @@
 1. $ git config --global user.name "<username>"   -> untuk menambahkan username pada git, sebaiknya disesuaikan dengan username akun github.
 2. $ git config --global user.email "<email>"     -> untuk menambahkan email pada git, sebaiknya disesuaikan dengan email akun github.
+
+3. $ git config --list                            -> untuk mengecek apakah git sudah mencatat username dan email yg tadi dimasukkan
+4. $ git init                                     -> untuk menjadikan folder sebagai repository, biasanya akan menjadi master(main) branch
+5. $ git add "<nama file>"                        -> untuk menambahkan file kedalam staging area, area dimana file di validasi ke repo sebelum dicommit
+6. $ git add .                                    -> untuk menambahkan seluruh file yang ada didalam repo kedalam staging area
+
+7. $ git commit -am "<message>"                   -> untuk melakukan add dan commit sekaligus, pada hal ini juga ditambahkan message/pesan nya
+8. $ git commit -m "<message>"                    -> untuk melakukan commit ke branch, "-m" untuk memberikan pesan/message pada commit
