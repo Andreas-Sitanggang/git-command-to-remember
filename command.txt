@@ -29,3 +29,11 @@ Twitter   : @andreassstg
 > $ git merge <branch_name>                      -> untuk merging/menggabungkan branch <branch_name> ke branch session saat ini
 > $ git branch --merged                          -> untuk melihat branch mana yang sudah melakukan merger
 > $ git branch -d <branch_name>                  -> untuk menghapus branch mana yang sudah melakukan merger
+
+> $ git clone <link https>                       -> untuk mengambil repo dari github dengan metode HTTPS
+> $ git remote                                   -> untuk melihat nama remote
+> $ git remote add <remote_name(origin)> <link github>  -> untuk mengirimkan repo local ke github
+> $ git remote -v                                -> untuk melihat remote secara detail, mengarah ke link repo mana
+> $ git fetch                                    -> untuk mengecek keadaan repo remote
+> $ git push                                     -> untuk mengirimkan perubahan dari local ke github
+> $ git pull                                     -> untuk mengambil dulu file, semisal ada conflict bisa diperbaiki di local
